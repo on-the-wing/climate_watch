@@ -3,5 +3,5 @@ This is a space to collect all our scripts/tools for working with Audubon's Clim
 
 ## myebird.py
 1. Sign up for eBird API key
-2. put it in keys.txt file and change path to where yours lives
+2. Put it in keys.txt file and change path to where yours lives. As it's written in the code, the keys.txt file is locally in one folder above the repo
 
