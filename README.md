@@ -1,4 +1,3 @@
-FYI if you want to edit: Github readme's are in markdown! :)
 # Climate Watch
 This is a space to collect all our scripts/tools for working with Audubon's Climate Watch data.
 
