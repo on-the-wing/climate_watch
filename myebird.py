@@ -1,6 +1,7 @@
 import time
 import sys
 import subprocess
+from pathlib import Path
 
 # implement pip as a subprocess:
 subprocess.check_call([sys.executable, '-m', 'pip', 'install', 
@@ -14,7 +15,8 @@ from ebird.api import get_visits, get_checklist
 observations = []
 metadata = []
 #this is a file that has your eBird  API key in it
-keyFile = open('C:\\Users\\galax\\Desktop\\CW2020\\keys.txt', 'r')
+path = Path(__file__).parent / "../keys.txt"
+keyFile = path.open()
 consumer_key = keyFile.readline().rstrip()
 #1ST entry HAS TO BE VALID CHECKLIST
 
