@@ -2,4 +2,6 @@
 This is a space to collect all our scripts/tools for working with Audubon's Climate Watch data.
 
 ## myebird.py
-Python tip: don't name a script the same thing as any structure/file related to a library you install. In python, you can import modules via your own scripts. It's easy to accidentally import one of your own scripts instead of the library you're trying to get to.
+1. Sign up for eBird API key
+2. put it in keys.txt file in the same dir where you’ll run the python script
+
